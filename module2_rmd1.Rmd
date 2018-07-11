@@ -47,4 +47,4 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 
 ## Insert Equation
 
-$$ Y = \beta_0 + \beta_1x $$
+$$ \tag{1} \require{cancel} \cancelto{0}{\sum} = \frac{\beta_0 + \beta_1x}{5\alpha_1} $$
