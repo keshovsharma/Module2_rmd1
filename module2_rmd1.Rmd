@@ -3,8 +3,8 @@ title: "Module2 - R Markdown Document 1"
 author: "Keshov K. Sharma"
 date: "7/11/2018"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
   word_document: default
 ---
 
@@ -22,6 +22,14 @@ When you click the **Knit** button a document will be generated that includes bo
 summary(cars)
 ```
 
+## Insert Tables
+
+```{r}
+knitr::kable(head(cars), caption = "Test")
+```
+
+
+
 ## Including Plots
 
 You can also embed plots, for example:
@@ -30,4 +38,13 @@ You can also embed plots, for example:
 plot(pressure)
 ```
 
+```{r pressure2, fig.width=5, fig.height=5}
+plot(pressure)
+```
+
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+## Insert Equation
+
+$$ Y = \beta_0 + \beta_1x $$
