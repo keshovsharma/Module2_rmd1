@@ -190,7 +190,20 @@ $(document).ready(function () {
 </div>
 <div id="insert-equation" class="section level2">
 <h2>Insert Equation</h2>
-<p><span class="math display">\[ \tag{1} \sum = \frac{\beta_0 + \beta_1x}{5\alpha_1} \]</span></p>
+<p><span class="math display">\[ \tag{1} \require{cancel} \cancelto{0}{\sum} = \frac{\beta_0 + \beta_1x}{5\alpha_1} \]</span></p>
+</div>
+<div id="insert-test-with-some-footnotes" class="section level2">
+<h2>Insert test with some footnotes</h2>
+<p>here is a foonote <a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> and another <a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a></p>
+<p>Here is an inline footnote <a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a></p>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>What up<a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p>I guess you just name these footnotes exactly as they are? I’m note sure what that’s all about<a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p>This seems to be much easier to work with then.<a href="#fnref3">↩</a></p></li>
+</ol>
 </div>
 
 

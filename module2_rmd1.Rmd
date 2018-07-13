@@ -48,3 +48,14 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 ## Insert Equation
 
 $$ \tag{1} \require{cancel} \cancelto{0}{\sum} = \frac{\beta_0 + \beta_1x}{5\alpha_1} $$
+
+
+
+## Insert test with some footnotes
+
+here is a foonote [^1] and another [^longnote]
+
+Here is an inline footnote ^[This seems to be much easier to work with then.]
+
+[^1]: What up
+[^longnote]: I guess you just name these footnotes exactly as they are? I'm note sure what that's all about 
